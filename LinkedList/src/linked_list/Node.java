@@ -4,4 +4,5 @@ public class Node {
 
 	int num;
 	Node node = null;
+
 }
