@@ -24,6 +24,7 @@ public class LinkedApp {
 		int length = 0;
 		Node currentNode = anode;
 		
+
 		while(currentNode != null){
 			length++;
 			currentNode = currentNode.node;
@@ -31,5 +32,5 @@ public class LinkedApp {
 		return length;
 	}
 	
-	
+
 }
